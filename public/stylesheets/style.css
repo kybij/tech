@@ -12,7 +12,6 @@ body, html {
 
 a {
   text-decoration: none;
-  
   font-weight: bold;
   transition: color .1s;
 }
@@ -22,14 +21,14 @@ a:hover {
 }
 
 h1 a {
-  font-size: 2rem;
+  font-size: 3rem;
   color: whitesmoke;
-  padding: 1rem;
+  padding-left: 40rem;
   
 }
 
 button {
-  background-color: #225ca3;
+  background-color:rgb(87, 14, 87);
   border: 0;
   padding: 1%;
   color: white;
@@ -75,7 +74,7 @@ form label {
 .wrapper {
   width: 100%;
   min-height: 100%;
-  max-width: 1200px;
+  max-width: 1550px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -87,7 +86,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 5rem;
-  background: blueviolet
+  background-color: rgb(87, 14, 87);
+  border-radius: 5px;
 }
 
 header h1 {
@@ -102,11 +102,11 @@ main {
 .btn-no-style {
   background: none;
   border: none;
-  padding: 0;
+  padding-right: .1rem;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
-  font-size: 100%;
+  color: whitesmoke;
+  font-size: 2rem;
   font-weight: bold;
   transition: color .1s;
   margin-left: 16px;
@@ -183,4 +183,13 @@ footer {
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+  color: whitesmoke;
+  background-color: rgb(92, 8, 92);
+  border-radius: 5px;
+}
+
+nav a {
+  color: whitesmoke;
+  font-size: 2rem;
+  padding-right: 3rem;
 }
